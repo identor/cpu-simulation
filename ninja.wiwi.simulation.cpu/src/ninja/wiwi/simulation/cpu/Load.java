@@ -13,6 +13,12 @@ public class Load implements Serializable {
 	private int load;
 	private int arrival;
 
+	public Load(String id, int load, int arrival) {
+		this.id = id;
+		this.load = load;
+		this.arrival = arrival;
+	}
+
 	public String getId() {
 		return id;
 	}
